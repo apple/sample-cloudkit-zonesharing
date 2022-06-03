@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4F53CDE2816285200520729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F53CDD2816285200520729 /* Assets.xcassets */; };
+		F4F53CE12816285200520729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F53CE02816285200520729 /* Preview Assets.xcassets */; };
+		F4F53CEB2816285200520729 /* ZoneSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53CEA2816285200520729 /* ZoneSharingTests.swift */; };
+		F4F53D122816291000520729 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D0B2816291000520729 /* Contact.swift */; };
+		F4F53D132816291000520729 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D0D2816291000520729 /* ViewModel.swift */; };
+		F4F53D142816291000520729 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D0F2816291000520729 /* AddContactView.swift */; };
+		F4F53D152816291000520729 /* CloudSharingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D102816291000520729 /* CloudSharingView.swift */; };
+		F4F53D162816291000520729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D112816291000520729 /* ContentView.swift */; };
+		F4F53D182816293000520729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D172816293000520729 /* AppDelegate.swift */; };
+		F4F53D1A2816294B00520729 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D192816294B00520729 /* Config.swift */; };
+		F4F53D1C28162A6A00520729 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D1B28162A6A00520729 /* SceneDelegate.swift */; };
+		F4F53D2128162C2E00520729 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F53D2028162C2E00520729 /* CloudKit.framework */; };
+		F4F53D2428163E8700520729 /* ContactGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F53D2328163E8700520729 /* ContactGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4F53CE72816285200520729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4F53CCE2816285100520729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F53CD52816285100520729;
+			remoteInfo = ZoneSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4F53CD62816285100520729 /* ZoneSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoneSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F53CDD2816285200520729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F53CE02816285200520729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4F53CE62816285200520729 /* ZoneSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoneSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F53CEA2816285200520729 /* ZoneSharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneSharingTests.swift; sourceTree = "<group>"; };
+		F4F53D0B2816291000520729 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		F4F53D0D2816291000520729 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F4F53D0F2816291000520729 /* AddContactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		F4F53D102816291000520729 /* CloudSharingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudSharingView.swift; sourceTree = "<group>"; };
+		F4F53D112816291000520729 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4F53D172816293000520729 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4F53D192816294B00520729 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F4F53D1B28162A6A00520729 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4F53D1E28162BC200520729 /* ZoneSharing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZoneSharing.entitlements; sourceTree = "<group>"; };
+		F4F53D2028162C2E00520729 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		F4F53D22281631BF00520729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F53D2328163E8700520729 /* ContactGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactGroup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4F53CD32816285100520729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F53D2128162C2E00520729 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F53CE32816285200520729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4F53CCD2816285100520729 = {
+			isa = PBXGroup;
+			children = (
+				F4F53CD82816285100520729 /* ZoneSharing */,
+				F4F53CE92816285200520729 /* ZoneSharingTests */,
+				F4F53CD72816285100520729 /* Products */,
+				F4F53D1F28162C2E00520729 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4F53CD72816285100520729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53CD62816285100520729 /* ZoneSharing.app */,
+				F4F53CE62816285200520729 /* ZoneSharingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F53CD82816285100520729 /* ZoneSharing */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53D0A2816291000520729 /* Models */,
+				F4F53D0E2816291000520729 /* Views */,
+				F4F53D0C2816291000520729 /* ViewModels */,
+				F4F53D03281628CC00520729 /* App */,
+				F4F53CDF2816285200520729 /* Preview Content */,
+			);
+			path = ZoneSharing;
+			sourceTree = "<group>";
+		};
+		F4F53CDF2816285200520729 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53CE02816285200520729 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4F53CE92816285200520729 /* ZoneSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53CEA2816285200520729 /* ZoneSharingTests.swift */,
+			);
+			path = ZoneSharingTests;
+			sourceTree = "<group>";
+		};
+		F4F53D03281628CC00520729 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53D22281631BF00520729 /* Info.plist */,
+				F4F53D1E28162BC200520729 /* ZoneSharing.entitlements */,
+				F4F53D172816293000520729 /* AppDelegate.swift */,
+				F4F53D192816294B00520729 /* Config.swift */,
+				F4F53D1B28162A6A00520729 /* SceneDelegate.swift */,
+				F4F53CDD2816285200520729 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F4F53D0A2816291000520729 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53D0B2816291000520729 /* Contact.swift */,
+				F4F53D2328163E8700520729 /* ContactGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4F53D0C2816291000520729 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53D0D2816291000520729 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4F53D0E2816291000520729 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53D0F2816291000520729 /* AddContactView.swift */,
+				F4F53D102816291000520729 /* CloudSharingView.swift */,
+				F4F53D112816291000520729 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4F53D1F28162C2E00520729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4F53D2028162C2E00520729 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4F53CD52816285100520729 /* ZoneSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F53CFA2816285200520729 /* Build configuration list for PBXNativeTarget "ZoneSharing" */;
+			buildPhases = (
+				F4F53CD22816285100520729 /* Sources */,
+				F4F53CD32816285100520729 /* Frameworks */,
+				F4F53CD42816285100520729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoneSharing;
+			productName = ZoneSharing;
+			productReference = F4F53CD62816285100520729 /* ZoneSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4F53CE52816285200520729 /* ZoneSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F53CFD2816285200520729 /* Build configuration list for PBXNativeTarget "ZoneSharingTests" */;
+			buildPhases = (
+				F4F53CE22816285200520729 /* Sources */,
+				F4F53CE32816285200520729 /* Frameworks */,
+				F4F53CE42816285200520729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4F53CE82816285200520729 /* PBXTargetDependency */,
+			);
+			name = ZoneSharingTests;
+			productName = ZoneSharingTests;
+			productReference = F4F53CE62816285200520729 /* ZoneSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F53CCE2816285100520729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F4F53CD52816285100520729 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F4F53CE52816285200520729 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F4F53CD52816285100520729;
+					};
+				};
+			};
+			buildConfigurationList = F4F53CD12816285100520729 /* Build configuration list for PBXProject "ZoneSharing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4F53CCD2816285100520729;
+			productRefGroup = F4F53CD72816285100520729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F53CD52816285100520729 /* ZoneSharing */,
+				F4F53CE52816285200520729 /* ZoneSharingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4F53CD42816285100520729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F53CE12816285200520729 /* Preview Assets.xcassets in Resources */,
+				F4F53CDE2816285200520729 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F53CE42816285200520729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4F53CD22816285100520729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F53D182816293000520729 /* AppDelegate.swift in Sources */,
+				F4F53D122816291000520729 /* Contact.swift in Sources */,
+				F4F53D1A2816294B00520729 /* Config.swift in Sources */,
+				F4F53D142816291000520729 /* AddContactView.swift in Sources */,
+				F4F53D2428163E8700520729 /* ContactGroup.swift in Sources */,
+				F4F53D162816291000520729 /* ContentView.swift in Sources */,
+				F4F53D152816291000520729 /* CloudSharingView.swift in Sources */,
+				F4F53D132816291000520729 /* ViewModel.swift in Sources */,
+				F4F53D1C28162A6A00520729 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F53CE22816285200520729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F53CEB2816285200520729 /* ZoneSharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4F53CE82816285200520729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4F53CD52816285100520729 /* ZoneSharing */;
+			targetProxy = F4F53CE72816285200520729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4F53CF82816285200520729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4F53CF92816285200520729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4F53CFB2816285200520729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoneSharing/App/ZoneSharing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoneSharing/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZoneSharing/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.samples.cloudkit.zonesharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4F53CFC2816285200520729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoneSharing/App/ZoneSharing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoneSharing/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZoneSharing/App/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icloud.samples.cloudkit.zonesharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4F53CFE2816285200520729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.samples.cloudkit.ZoneSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoneSharing.app/ZoneSharing";
+			};
+			name = Debug;
+		};
+		F4F53CFF2816285200520729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.samples.cloudkit.ZoneSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoneSharing.app/ZoneSharing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4F53CD12816285100520729 /* Build configuration list for PBXProject "ZoneSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F53CF82816285200520729 /* Debug */,
+				F4F53CF92816285200520729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F53CFA2816285200520729 /* Build configuration list for PBXNativeTarget "ZoneSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F53CFB2816285200520729 /* Debug */,
+				F4F53CFC2816285200520729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F53CFD2816285200520729 /* Build configuration list for PBXNativeTarget "ZoneSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F53CFE2816285200520729 /* Debug */,
+				F4F53CFF2816285200520729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F53CCE2816285100520729 /* Project object */;
+}
