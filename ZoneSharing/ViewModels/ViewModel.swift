@@ -83,7 +83,7 @@ final class ViewModel: ObservableObject {
             try await database.save(zone)
             
             let id = CKRecord.ID(zoneID: zone.zoneID)
-            let contactRecord = CKRecord(recordType: "Contact", recordID: id)
+            let contactRecord = CKRecord(recordType: "SharedContact", recordID: id)
             contactRecord["name"] = name
             contactRecord["phoneNumber"] = phoneNumber
 
